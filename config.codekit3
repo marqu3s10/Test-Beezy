@@ -46,15 +46,19 @@
 		"oAP": "\/build\/assets\/fonts\/icons\/icomoon.woff",
 		"oF": 0
 		},
-	"\/source\/assets\/fonts\/Segoe\/Bold.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/build\/assets\/fonts\/Segoe\/Bold.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
+	"\/source\/assets\/fonts\/Segoe\/Bold.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/assets\/fonts\/Segoe\/Bold.eot",
+		"oF": 0
+		},
+	"\/source\/assets\/fonts\/Segoe\/Bold.TTF": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/assets\/fonts\/Segoe\/Bold.TTF",
+		"oF": 0
 		},
 	"\/source\/assets\/fonts\/Segoe\/Bold.woff": {
 		"cB": 0,
@@ -63,15 +67,19 @@
 		"oAP": "\/build\/assets\/fonts\/Segoe\/Bold.woff",
 		"oF": 0
 		},
-	"\/source\/assets\/fonts\/Segoe\/Light.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/build\/assets\/fonts\/Segoe\/Light.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
+	"\/source\/assets\/fonts\/Segoe\/Light.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/assets\/fonts\/Segoe\/Light.eot",
+		"oF": 0
+		},
+	"\/source\/assets\/fonts\/Segoe\/Light.TTF": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/assets\/fonts\/Segoe\/Light.TTF",
+		"oF": 0
 		},
 	"\/source\/assets\/fonts\/Segoe\/Light.woff": {
 		"cB": 0,
@@ -80,15 +88,19 @@
 		"oAP": "\/build\/assets\/fonts\/Segoe\/Light.woff",
 		"oF": 0
 		},
-	"\/source\/assets\/fonts\/Segoe\/Regular.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/build\/assets\/fonts\/Segoe\/Regular.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
+	"\/source\/assets\/fonts\/Segoe\/Regular.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/assets\/fonts\/Segoe\/Regular.eot",
+		"oF": 0
+		},
+	"\/source\/assets\/fonts\/Segoe\/Regular.TTF": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/build\/assets\/fonts\/Segoe\/Regular.TTF",
+		"oF": 0
 		},
 	"\/source\/assets\/fonts\/Segoe\/Regular.woff": {
 		"cB": 0,
@@ -188,7 +200,7 @@
 		"ft": 512,
 		"oA": 1,
 		"oAP": "\/build\/.\/modules\/early-access.html",
-		"oF": 1,
+		"oF": 0,
 		"oS": 0
 		},
 	"\/source\/jade\/modules\/head.jade": {
@@ -197,7 +209,7 @@
 		"ft": 512,
 		"oA": 1,
 		"oAP": "\/build\/.\/modules\/head.html",
-		"oF": 1,
+		"oF": 0,
 		"oS": 0
 		},
 	"\/source\/jade\/modules\/vars.jade": {
