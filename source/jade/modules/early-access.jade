@@ -1,0 +1,40 @@
+section#l-early-access
+  .early-access
+    
+    .l-flex-1-2#inject-photos
+    
+    // JS inject this when viewport is more than 480px, for save a not necesary request to the server:
+      //- 
+      //- .early-access__phones--large
+      //-   img.early-access__phones-img(
+      //-     src= "assets/images/phones-desktop/phones-desktop.png",
+      //-     srcset="assets/images/phones-desktop/phones-desktop@2x.png 2x, \
+      //-             assets/images/phones-desktop/phones-desktop@3x.png 3x"
+      //-     alt="Iphones showing Contoso App"
+      //-   )
+        
+    .l-flex-1-2
+      .logo.early-access__logo 
+        .logo__md
+          // this improve the performance, saving one request to the server.
+          include ../../assets/images/brand/contoso.svg 
+          
+      .early-access__phones
+        // Jade variables used for cleaner code
+        img.early-access__phones-img(
+          src= "#{phones_mobile}.png",
+          srcset="#{phones_mobile}@2x.png 2x, \
+                  #{phones_mobile}@3x.png 3x"
+          alt="Iphones showing Contoso App"
+        )
+        
+      h1.early-access__title.f-light.c-white--two The best of Slack &amp; WhatsApp combined and natively built in Office 365
+      p.early-access__text.f-normal.c-white--87 Get early access to Contoso, the new messaging app for professionals
+        
+      form.form.early-access__form
+        input.form__email--early-access.c-cool-grey(type="text" placeholder="Your O365 email" size="1")
+        input.btn.btn-tomato.form__btn--early-access.c-white--two.f-bold(type="submit" value="send")
+      
+      .early-access__icons
+        a.icon-mail.early-access__icon(mailto="#")
+        a.icon-twitter.early-access__icon(href="#")

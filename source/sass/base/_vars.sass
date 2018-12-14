@@ -1,0 +1,48 @@
+// ==========================================================================
+// Variables (with BEM structure)
+// ==========================================================================
+
+// ==========================================================================
+// Colors
+// ==========================================================================
+
+$white: #fefefe
+$white--two: #ffffff
+$white--87: rgba($white--two, 0.87)
+
+$sky--blue: #62a7ff
+$french--blue: #4359b6
+$french--blue-two: #3f50ad
+$dark--slate-blue: #132d4c
+
+$cool--grey: #9fa3a7
+
+$tomato: #f05638
+$tomato--hover: lighten($tomato, 8%)
+
+// ==========================================================================
+// Gradients
+// ==========================================================================
+
+$gradient-mobile: linear-gradient(321deg, $sky--blue, $french--blue 46%, $french--blue-two 52% , $dark--slate-blue)
+$gradient-desktop: linear-gradient(289deg, $sky--blue, $french--blue 46%, $french--blue-two 52% , $dark--slate-blue)
+
+// In zeplin, the landing mobile gradient looks like this gradient:
+$gradient-mobile--mod: linear-gradient(321deg, $french--blue, $french--blue-two 35%, $dark--slate-blue)
+$gradient-desktop--mod: linear-gradient(289deg, $french--blue, $french--blue-two 45%, $dark--slate-blue)
+
+
+// ==========================================================================
+// Fonts
+// ==========================================================================
+
+$font__path: "../assets/fonts/"        // used in the font-face mixin (./source/sass/base/_mixins.sass)
+
+
+// ==========================================================================
+// Media Querys
+// ==========================================================================
+
+$mobile--landscape: "only screen and (min-width: 480px)"
+$tablet: "only screen and (min-width: 768px)"
+$laptop: "only screen and (min-width: 1024px)"

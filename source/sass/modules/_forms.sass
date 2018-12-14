@@ -1,0 +1,29 @@
+// ==========================================================================
+// Forms Component
+// ==========================================================================
+
+.form
+
+  &__email
+    // ...
+    // other different modificators for email
+    // ...
+
+    &--early-access
+      font-size: rem(16)
+      padding: rem(10) rem(11)
+      flex: 1 1 auto                // grow or shrink this element
+
+      &::placeholder
+        @extend .c-cool-grey        // Cleanest way to have this color in the placeholder
+
+
+  &__btn
+
+    // ...
+    // other different modificators for btn
+    // ...
+
+    &--early-access
+      letter-spacing: rem(2.8)
+      text-transform: uppercase

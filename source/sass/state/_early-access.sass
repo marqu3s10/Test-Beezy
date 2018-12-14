@@ -1,0 +1,95 @@
+// ==========================================================================
+// Early-access Media Queries
+// ==========================================================================
+
+@include screen($mobile--landscape)
+  #l-early-access
+    background-image: $gradient-desktop--mod
+    position: relative             // to position the icons
+
+  .early-access
+    max-width: 1268px              // to not grow to much
+    margin: 0 auto                 // to center the component
+    text-align: left
+
+    display: flex
+    align-items: center
+    flex-direction: row
+
+    &__logo
+      margin: rem(25) 0
+
+    &__phones
+      $self: &                     // equal to: .early-access__phones
+      display: none
+
+      &--large
+        display: flex
+        align-items: center
+        margin-right: rem(20)
+
+        #{$self}-img               //Here, we use $self to get the correct scope
+          margin: rem(32) auto rem(-60) auto
+          max-width: 220px
+          min-width: 180px
+          
+    &__form
+      margin: rem(22) 0
+
+@include screen($tablet)
+  #l-early-access
+    padding: em(40) em(40) em(30) em(20)
+
+  .early-access
+
+    &__phones
+      $self: &
+
+      &--large
+        margin-right: rem(35)
+
+        #{$self}-img
+          max-width: 300px
+
+    &__title
+      font-size: em(33)
+      line-height: 1.14
+
+    &__text
+      font-size: rem(20)
+
+    &__form
+      max-width: rem(400)
+      margin: rem(26) 0
+
+    &__icons                 // icons showing after $tablet (min-width: 768px), look bad before (no space).
+      display: flex
+      position: absolute
+      right: rem(40)
+      top: rem(40)
+
+    &__icon
+      font-size: rem(32)
+      width: rem(32)
+      margin-left: rem(10)
+
+      &::before
+        transition: 300ms
+
+      &:hover::before
+        color: $tomato--hover
+
+@include screen($laptop)
+  .early-access
+    &__phones
+      $self: &
+
+      &--large
+        #{$self}-img
+          max-width: 374px
+
+    &__title
+      font-size: rem(42)
+
+    &__text
+      font-size: rem(24)

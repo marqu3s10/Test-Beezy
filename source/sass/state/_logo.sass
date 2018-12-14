@@ -1,0 +1,13 @@
+// ==========================================================================
+// Logo Media Queries
+// ==========================================================================
+
+@include screen($mobile--landscape)
+  .logo
+    &__md
+      font-size: em(20)      // this produce more width and height
+
+@include screen($tablet)
+  .logo
+    &__md
+      font-size: em(25.5) 
